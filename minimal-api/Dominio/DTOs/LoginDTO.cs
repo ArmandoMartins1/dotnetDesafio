@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 
 namespace minimal_api.Dominio.DTOs
 {
-    public class LoginDTOs
+    public class LoginDTO
     {
-        
+        public string Email { get; set; }
+        public string Senha { get; set; }
     }
 }
