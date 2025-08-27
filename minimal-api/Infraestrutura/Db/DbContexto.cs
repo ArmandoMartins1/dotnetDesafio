@@ -18,14 +18,17 @@ namespace minimal_api.Infraestrutura.Db
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            // Esse "?" serve para que se ele não validar, ele volta vazio.
-            var stringConexao = _configuracaoAppSettings.GetConnectionString("mysql")?.ToString();
-            if (!string.IsNullOrEmpty(stringConexao))
+            if (!optionsBuilder.IsConfigured)
             {
-            optionsBuilder.UseMySql(
-                stringConexao,
-            ServerVersion.AutoDetect(stringConexao)
-            );
+                // Esse "?" serve para que se ele não validar, ele volta vazio.
+                var stringConexao = _configuracaoAppSettings.GetConnectionString("mysql")?.ToString();
+                if (!string.IsNullOrEmpty(stringConexao))
+                {
+                    optionsBuilder.UseMySql(
+                        stringConexao,
+                    ServerVersion.AutoDetect(stringConexao)
+                    );
+                }
             }
         }
     }
