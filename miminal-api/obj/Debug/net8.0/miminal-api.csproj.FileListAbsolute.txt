@@ -23,3 +23,4 @@ C:\Users\somat\Documents\AprendizadoDIO\miminal-api\obj\Debug\net8.0\refint\mimi
 C:\Users\somat\Documents\AprendizadoDIO\miminal-api\obj\Debug\net8.0\miminal-api.pdb
 C:\Users\somat\Documents\AprendizadoDIO\miminal-api\obj\Debug\net8.0\miminal-api.genruntimeconfig.cache
 C:\Users\somat\Documents\AprendizadoDIO\miminal-api\obj\Debug\net8.0\ref\miminal-api.dll
+C:\Users\somat\Documents\AprendizadoDIO\miminal-api\obj\Debug\net8.0\miminal-api.sourcelink.json

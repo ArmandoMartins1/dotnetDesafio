@@ -1,0 +1,1 @@
+1 - usei o codigo " dotnet new web -o miminal-api"
