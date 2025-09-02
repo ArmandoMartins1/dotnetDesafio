@@ -104,3 +104,8 @@ C:\Users\somat\Documents\AprendizadoDIO\minimal-api\obj\Debug\net8.0\refint\mini
 C:\Users\somat\Documents\AprendizadoDIO\minimal-api\obj\Debug\net8.0\minimal-api.pdb
 C:\Users\somat\Documents\AprendizadoDIO\minimal-api\obj\Debug\net8.0\minimal-api.genruntimeconfig.cache
 C:\Users\somat\Documents\AprendizadoDIO\minimal-api\obj\Debug\net8.0\ref\minimal-api.dll
+C:\Users\somat\Documents\AprendizadoDIO\minimal-api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\somat\Documents\AprendizadoDIO\minimal-api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\somat\Documents\AprendizadoDIO\minimal-api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\somat\Documents\AprendizadoDIO\minimal-api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\somat\Documents\AprendizadoDIO\minimal-api\obj\Debug\net8.0\minimal-api.MvcApplicationPartsAssemblyInfo.cs
