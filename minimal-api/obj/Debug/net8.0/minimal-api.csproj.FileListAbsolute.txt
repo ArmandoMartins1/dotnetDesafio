@@ -109,3 +109,11 @@ C:\Users\somat\Documents\AprendizadoDIO\minimal-api\bin\Debug\net8.0\Swashbuckle
 C:\Users\somat\Documents\AprendizadoDIO\minimal-api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\somat\Documents\AprendizadoDIO\minimal-api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\somat\Documents\AprendizadoDIO\minimal-api\obj\Debug\net8.0\minimal-api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\somat\Documents\AprendizadoDIO\minimal-api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\somat\Documents\AprendizadoDIO\minimal-api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\somat\Documents\AprendizadoDIO\minimal-api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\somat\Documents\AprendizadoDIO\minimal-api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\somat\Documents\AprendizadoDIO\minimal-api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\somat\Documents\AprendizadoDIO\minimal-api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\somat\Documents\AprendizadoDIO\minimal-api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\somat\Documents\AprendizadoDIO\minimal-api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
