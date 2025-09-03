@@ -16,11 +16,37 @@ namespace minimal_api.Dominio.Servicos
         {
             _contexto = contexto;
         }
+
+        public Adminstrador? BuscaPorId(int id)
+        {
+            return _contexto.Adminstradores.Where(v => v.Id == id).FirstOrDefault();
+        }
+
+        public Adminstrador Incluir(Adminstrador adminstrador)
+        {
+            _contexto.Adminstradores.Add(adminstrador);
+            _contexto.SaveChanges();
+
+            return adminstrador;
+        }
+
         public Adminstrador? Login(LoginDTO loginDTO)
         {
             var adm = _contexto.Adminstradores.Where(a => a.Email == loginDTO.Email && a.Senha == loginDTO.Senha).FirstOrDefault();
             return adm;
             
+        }
+
+        public List<Adminstrador> Todos(int? pagina)
+        {
+            var query = _contexto.Adminstradores.AsQueryable();
+            
+            int itensPorPagina = 10;
+
+            if (pagina != null)
+            query = query.Skip(((int)pagina - 1) * itensPorPagina).Take(itensPorPagina);                
+            
+            return query.ToList();
         }
     }
 }
